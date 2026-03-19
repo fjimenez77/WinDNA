@@ -247,9 +247,11 @@ WinDNA/
 
 - **[MacDNA](https://github.com/fjimenez77/MacDNA)** — macOS counterpart
 
-## Author
+## Authors
 
 **cyberspartan77** — [github.com/fjimenez77](https://github.com/fjimenez77)
+
+**canadayb** — [github.com/canadayb](https://github.com/canadayb)
 
 ## License
 
