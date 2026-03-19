@@ -1,22 +1,28 @@
-# macOS
-.DS_Store
-._*
+# Profiles (user data)
+profiles/
 
-# Profiles contain personal data — don't push captured profiles
-profiles/*.json
-
-# Settings are local per machine
+# Settings (user preferences)
 settings.json
 
 # Python
 __pycache__/
 *.pyc
 *.pyo
+*.egg-info/
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
 
 # Debug logs
 *.log
-firebase-debug.log
+
+# Claude
+.claude/
