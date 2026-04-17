@@ -237,8 +237,6 @@ WinDNA/
 ├── windna.ps1             # PowerShell version (interactive menu, all-in-one)
 ├── securityaudit_win.py   # Security audit engine (imported by windna.py)
 ├── profiles/              # Saved captures and audits
-├── settings.json          # Persistent user settings
-├── ROADMAP.md             # Development roadmap
 ├── LICENSE
 └── README.md
 ```
@@ -247,12 +245,68 @@ WinDNA/
 
 - **[MacDNA](https://github.com/fjimenez77/MacDNA)** — macOS counterpart
 
-## Authors
+---
 
-**cyberspartan77** — [github.com/fjimenez77](https://github.com/fjimenez77)
+## Keywords
 
-**canadayb** — [github.com/canadayb](https://github.com/canadayb)
+Windows system backup, PC settings capture, Windows migration tool, deploy Windows preferences, clone PC setup, Windows configuration DNA, registry backup, Windows security audit, BitLocker audit, Defender compliance check, CIS benchmark Windows, Windows forensic snapshot, PowerShell system tool, winget backup, Windows IT admin tool, Active Directory audit, Group Policy audit, Windows compliance checker, STIG compliance, endpoint security assessment
+
+## Contributing
+
+Pull requests, bug reports, and feature suggestions are welcome.
+
+Quick version:
+
+```powershell
+# 1. Fork the repo on GitHub
+# 2. Clone your fork
+git clone https://github.com/YOUR_USERNAME/WinDNA.git
+cd WinDNA
+
+# 3. Create a feature branch
+git checkout -b feature/your-idea
+
+# 4. Make changes, test locally
+python windna.py
+python -m py_compile windna.py
+
+# Or test the PowerShell version:
+powershell -ExecutionPolicy Bypass -File windna.ps1
+
+# 5. Commit + push + open a PR
+git commit -m "Add: your change"
+git push origin feature/your-idea
+```
+
+Before opening a PR:
+
+- Open an issue first for non-trivial changes
+- Keep PRs focused (one logical change per PR)
+- Test the affected functionality manually
+- No new external dependencies without discussion
+- No real credentials, registry exports, or PII in commits
+
+Reporting bugs? Include Windows version, Python version, architecture (x64/x86/ARM64), and reproduction steps.
+
+Found a security issue? Don't open a public issue — use [GitHub Security Advisories](https://github.com/fjimenez77/WinDNA/security/advisories) instead.
+
+## Contributors
+
+- [@fjimenez77](https://github.com/fjimenez77) (Felix J.)
+- [@canadayb](https://github.com/canadayb) (Brian Canaday)
 
 ## License
 
-MIT
+MIT License — see [LICENSE](LICENSE) for full text.
+
+Copyright 2026 Felix J. ([@fjimenez77](https://github.com/fjimenez77)) and contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
