@@ -25,4 +25,4 @@ Desktop.ini
 *.log
 
 # Dev tools
-.claude/
+.dev/
