@@ -1,16 +1,6 @@
-```
-   ╭─╮  ██╗    ██╗██╗███╗   ██╗██████╗ ███╗   ██╗ █████╗
-   │╳│  ██║    ██║██║████╗  ██║██╔══██╗████╗  ██║██╔══██╗
-   ╰╮╯  ██║ █╗ ██║██║██╔██╗ ██║██║  ██║██╔██╗ ██║███████║
-   ╭╯╮  ██║███╗██║██║██║╚██╗██║██║  ██║██║╚██╗██║██╔══██║
-   │╳│  ╚███╔███╔╝██║██║ ╚████║██████╔╝██║ ╚████║██║  ██║
-   ╰─╯   ╚══╝╚══╝ ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═╝  ╚═══╝╚═╝  ╚═╝
-
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-    🧬  Capture · Deploy · Clone Your PC
-    v1.0  ━━  cyberspartan77  ━━  2026
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-```
+<h1 align="center">🧬 WinDNA v1</h1>
+<p align="center"><strong>Capture · Deploy · Clone Your PC</strong></p>
+<p align="center">v1.0 &nbsp;━━&nbsp; cyberspartan77 &nbsp;━━&nbsp; 2026</p>
 
 **Capture your PC's complete configuration DNA and deploy it to any new Windows machine.**
 
